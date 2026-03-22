@@ -63,7 +63,7 @@ public class renderpoints : MonoBehaviour
         Transform point = Instantiate<Transform>(prefab);
         point.localScale = new Vector3(0.5f, 0.5f, 0.5f);
         point.localPosition = getcoords(x, y, z);
-        point.GetComponent<MeshRenderer>().material.color = new Color((float)x / resolution, (float)y / resolution, (float)z / resolution);
+        point.GetComponent<MeshRenderer>().material.color = new Color(x - (resolution - 1) * 0.5f, y - (resolution - 1) * 0.5f, z - (resolution - 1) * 0.5f);
         return point;
     }
 

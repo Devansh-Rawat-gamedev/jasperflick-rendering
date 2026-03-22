@@ -334,7 +334,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 5298428366990374213, guid: 91adbcd5d84639443b247f862dd1b1ab, type: 3}
-  resolution: 10
+  resolution: 25
 --- !u!4 &1028245230
 Transform:
   m_ObjectHideFlags: 0
